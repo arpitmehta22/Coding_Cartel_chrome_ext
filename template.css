@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html, body {
+  background-color: rgb(131, 255, 131);
+  font-family: Arial, Verdana, sans-serif;
+  min-width: 600px;
+  
+  
+}
+#outer_container {
+  background-color: rgb(150, 204, 201);
+
+}
+.contest_link{
+ 
+  background:rgb(152, 231, 115);
+  border-radius: 40px;
+
+  text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: 600;
+ 
+  color:rgb(0, 0, 0);
+
+}
+
+.online_button{
+  background:rgb(116, 255, 116);
+  border-radius: 50px;
+  margin: 5px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-color: #ddd;
+  color:rgb(0, 0, 0);
+
+}
+
+.icon_site{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  
+  box-shadow: 5px 5px 16px -8px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  width: 600px;
+  min-height: 120px;
+  background-color: rgb(16, 203, 236);
+  background: linear-gradient(#000000, rgb(0, 0, 0));
+  box-shadow: 50px 50px 16px -8px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #000000; /* some kind of blue border */
+
+  /* other CSS styles */
+
+  /* round the corners */
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+
+
+  /* make it glow! */
+  -webkit-box-shadow: 0 0 40px#000000;
+     -moz-box-shadow: inset 0 0 10px #070c09; 
+          /* box-shadow: inset 0 0 10px #070c09;  */
+          box-shadow:  10 10 30px #070c09; 
+ 
+  margin: 2rem;
+
+  border-color: #000000;
+}
+.card-body{
+border-color: #5a5757;
+border-radius: 40px;
+  
+ background-color: #0c0a0a;
+  /* background: linear-gradient(to bottom, rgb(20, 129, 180) 0%, rgba(30, 128, 62, 0)); */
+}
+.card-title{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 600;
+  color:#b3d3dd;
+  
+
+
+}
+.card-text{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: #f2f2f2;
+
+}
+
+h1{
+  background-color: rgb(36, 75, 100);
+  font-family:"Allerta Stencil", Sans-serif;
+  border: #070c09;
+}
+h4,h1 {
+  color: #fafafa;
+  
+  font-weight:bold;
+  font-style: inherit;
+  text-align: center;
+  margin-block: 10px;
+}
+a {
+  width:100px;
+  background-color:#333;
+
+}
+
+.topnav {
+  background-color: rgb(34, 101, 110);
+  overflow: hidden;
+ 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  max-width: 100px;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
